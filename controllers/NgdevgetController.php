@@ -138,6 +138,8 @@ class NgDevGetController extends XFrontBase
 					$criteria->addCondition('lp_dol >= 800000');
 					$criteria->addCondition('lp_dol <= 1800000');
 				 }
+				 $criteria->addCondition("get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)  < 20 "); 
+				 $criteria->order = "get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)";
 			 }
 			if (empty($postParms['type'])) {	
 				$count = House::model()->count($criteria);
