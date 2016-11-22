@@ -1,0 +1,119 @@
+<?php
+/**
+ * "{{house}}" 数据表模型类.
+ *
+ * @author        ShengHui
+ * @copyright     Copyright (c) 2007-2013 bagesoft. All rights reserved.
+ * @link          http://www.bagecms.com
+ * @package       BageCMS.Model
+ * @license       http://www.bagecms.com/license
+ * @version       v3.1.0
+ */
+class House extends XBaseModel
+{
+	
+	/**
+	 * @return string 相关的数据库表的名称
+	 */
+	public function tableName()
+	{
+		return '{{house}}';
+	}
+
+	/**
+	 * @return array 对模型的属性验证规则.
+	 */
+	public function rules()
+	{
+		return array(
+			array('name, location, introduction, facilities, recommend, certificate, accessDate, city_id, district_id, community, investType_id, propertyType_id, floor_num, bedroom_num, toilet_num, kitchen_num, park_num, prepay, total_price, author, land_area, house_area, house_size, land_ownership, door_direction, construction_year, zipcode, lift, carport, embassy, mls_code, longitude, latitude, match, is_sell', 'required'),
+			array('name, developer, house_image, video_url, location', 'length', 'max'=>255),
+			array('subject_id, recommend, certificate, city_id, district_id, investType_id, propertyType_id, floor_num, bedroom_num, toilet_num, kitchen_num, park_num, is_sell', 'numerical', 'integerOnly'=>true),
+			array('community, author, house_size, land_ownership, door_direction, construction_year, zipcode, lift, carport, embassy, mls_code, longitude, latitude, match', 'length', 'max'=>50),
+			array('facilities', 'length', 'max'=>500),
+			array('mls_code','unique','message'=>'MLS号已占用'),
+			// The following rule is used by search().
+			// @todo Please remove those attributes that should not be searched.
+			//array('id, name, developer, location, introduction, house_image, image_list, video, facilities, recommend, certificate, accessDate, city_id, district_id, community, investType_id, propertyType_id, floor_num, bedroom_num, toilet_num, kitchen_num, park_num, prepay, total_price, author, land_area, house_area, house_size, land_ownership, door_direction, construction_year, zipcode, lift, carport, embassy, mls_code, longitude, latitude, match, is_sell', 'safe', 'on'=>'search'),
+			array('id, recommend,  city_id, district_id,propertyType_id, longitude, latitude, match, is_sell', 'safe', 'on'=>'search'),
+		);
+	}
+
+	/**
+	 * @return array 关联规则.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+			'city'=>array(self::BELONGS_TO, 'City', 'city_id'),
+			'district'=>array(self::BELONGS_TO, 'District', 'district_id'),
+			'subject'=>array(self::BELONGS_TO, 'Subject', 'subject_id'),
+			'investType'=>array(self::BELONGS_TO, 'InvestType', 'investType_id'),
+			'propertyType'=>array(self::BELONGS_TO, 'PropertyType', 'propertyType_id'),
+		);
+	}
+
+	/**
+	 * @return array 自定义属性标签 (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'id'                => 'ID',
+			'name'              => '房源名称',
+			'prepay'            => '首付',
+			'total_price'       => '总价',
+			'developer'         => '开发商',
+			'subject_id'        => '所属项目',
+			'accessDate'        => '挂牌日期',
+			'location'          => '地址',
+			'introduction'      => '房源描述',
+			'house_image'       => '房源图片',
+			'image_list'        => '组图',
+			'video_url'         => '房源视频路径',
+            'author'            => '编辑者',
+            'recommend'         => '是否推荐',
+			'city_id'           => '城市',
+			'district_id'       => '地区',
+			'community'         => '社区/学区',
+			'investType_id'     => '投资类型',
+			'propertyType_id'   => '物业类型',
+			'land_area'         => '土地面积',
+			'house_area'        => '房屋面积',
+			'floor_num'         => '房屋层数',
+			'bedroom_num'       => '卧室数量',
+			'toilet_num'        => '卫生间数量',
+			'kitchen_num'       => '厨房数量',
+			'park_num'          => '停车位数量',
+			'house_size'        => '房屋规格',
+			'land_ownership'    => '土地所有权',
+			'door_direction'    => '大门朝向',
+			'construction_year' => '建造年份',
+			'zipcode'           => '邮编',
+			'certificate'       => '认证房源',
+			'lift'              => '电梯',
+			'carport'           => '车库',
+			'embassy'           => '会客厅',
+			'mls_code'          => 'MSL编号',
+			'facilities'        => '附近设施',
+			'longitude'         => '经度',
+			'latitude'          => '纬度',
+			'match'             => '房屋配套',
+			'is_sell'           => '是否出售',
+		);
+	}
+
+
+	/**
+	 * 返回指定的AR类的静态模型.
+	 * Please note that you should have this exact method in all your CActiveRecord descendants!
+	 * @param string $className active record class name.
+	 * @return Post the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+}
