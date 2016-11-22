@@ -131,11 +131,11 @@ class NgDevGetController extends XFrontBase
 			
 
 			if (!empty($postParms['type'])) {
-				 $criteria->limit = 10;
-				error_log("type".$postParms['type']);
+				 $criteria->limit = 15;
+				//error_log("type".$postParms['type']);
 				 //Recommendation
 				 if ($postParms['type']  == 'recommend') {
-					error_log("type2 is selected");
+					//error_log("type2 is selected");
 					$criteria->addCondition("propertyType_id = 1"); 
 					$criteria->addCondition("br >= 3");
 					$criteria->addCondition('lp_dol >= 800000');
