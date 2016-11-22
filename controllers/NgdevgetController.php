@@ -124,6 +124,9 @@ class NgDevGetController extends XFrontBase
 			$maxLat = floatval($latlon[2]);
 			$minLon = floatval($latlon[1]);
 			$maxLon = floatval($latlon[3]);
+			$centerLat = ($minLat + $maxLat)/2;
+			$centerLng = ($minLon + $maxLon)/2;
+			
 			
 			
 
@@ -138,8 +141,10 @@ class NgDevGetController extends XFrontBase
 					$criteria->addCondition('lp_dol >= 800000');
 					$criteria->addCondition('lp_dol <= 1800000');
 				 }
-				 $criteria->addCondition("get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)  < 20 "); 
-				 $criteria->order = "get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)";
+				 //$criteria->addCondition("get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)  < 20 "); 
+				// $criteria->order = "get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)";
+				 $criteria->addCondition("get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)  < 20 "); 
+				 $criteria->order = "get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)";
 			 }
 			if (empty($postParms['type'])) {	
 				$count = House::model()->count($criteria);
@@ -249,7 +254,7 @@ class NgDevGetController extends XFrontBase
 				$result['Data']['imgHost'] = $this->imgHost;
 				$criteria->select = 'id,ml_num,zip,s_r,county,municipality,lp_dol,num_kit,construction_year,br,addr,longitude,latitude,area,bath_tot,pix_updt,src,pic_num';
 				$criteria->with = array('mname','propertyType','city');
-				$criteria->order = "t.latitude,t.longitude";
+				//$criteria->order = "t.latitude,t.longitude";
 				$house = House::model()->findAll($criteria);
 				$result = $this->house2Array($house,$count,'house');
             
@@ -1098,8 +1103,8 @@ class NgDevGetController extends XFrontBase
 		$tokens = explode(" ", $headers['Authorization']? $headers['Authorization']: $headers['authorization']);
 		//error_log(print_r($tokens,true));
 		if ($tokens[0] == "Bearer") {
-			error_log($tokens[0]);
-			error_log($tokens[1]);
+			//error_log($tokens[0]);
+			//error_log($tokens[1]);
 			//second is client ID and 4th argument is an array 
 			$decoded_id_token = \Auth0\SDK\Auth0JWT::decode($tokens[1], $this->MAPLEAPP_SPA_AUD, $this->MAPLEAPP_SPA_SECRET, []); 
 			$validToken = true;
@@ -1121,10 +1126,13 @@ class NgDevGetController extends XFrontBase
 	}		
 
 	public function isValidVOWToken($VOWtoken){
+		//error_reporting(-1); // reports all errors
+		//error_log($VOWToken);
 		static $validVOWToken = false;
 		if ($validVOWToken) { return $validVOWToken; }
 
 		if (!empty($VOWtoken)) {
+		
 			$decoded_VOWtoken = \Auth0\SDK\Auth0JWT::decode($VOWtoken, $this->MAPLEAPP_SPA_VOW_AUD, $this->MAPLEAPP_SPA_VOW_SECRET, []); 
 			$validVOWToken = true;
 		}
