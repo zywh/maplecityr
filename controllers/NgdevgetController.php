@@ -128,7 +128,7 @@ class NgDevGetController extends XFrontBase
 			$centerLng = ($minLon + $maxLon)/2;
 			
 			
-			
+		//for home page nearby and recommend search, also for similar house search	
 
 			if (!empty($postParms['type'])) {
 				 $criteria->limit = 15;
@@ -143,6 +143,18 @@ class NgDevGetController extends XFrontBase
 				 }
 				 //$criteria->addCondition("get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)  < 20 "); 
 				// $criteria->order = "get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)";
+				 if (!empty($postParms['housebaths'])) {
+			                $criteria->addCondition("t.bath_tot=".$postParms['housebaths']);
+
+            			}
+				 if (!empty($postParms['houseroom']) ) {
+                                		$houseroom = intval($postParms['houseroom']);
+                                $criteria->addCondition("t.br = :br");
+                                $criteria->params += array(':br' => $houseroom);
+                        	}
+
+
+
 				 $criteria->addCondition("get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)  < 20 "); 
 				 $criteria->order = "get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)";
 			 }
