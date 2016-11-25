@@ -6719,3 +6719,78 @@ Stack trace:
 #15 {main}
 REQUEST_URI=/index.php?r=ngget2/getMapHouse
 ---
+2016/11/25 23:25:59 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/NgdevgetController.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/NgdevgetController.php(1133): NgDevGetController->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgDevGetController->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngdevget/getVOW...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngdevget/getVOWToken
+---
+2016/11/25 23:26:00 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/NgdevgetController.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/NgdevgetController.php(1133): NgDevGetController->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgDevGetController->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngdevget/getVOW...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngdevget/getVOWToken
+---
+2016/11/25 23:26:01 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/NgdevgetController.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/NgdevgetController.php(1133): NgDevGetController->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgDevGetController->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngdevget/getVOW...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngdevget/getVOWToken
+---
+2016/11/25 23:26:02 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/NgdevgetController.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/NgdevgetController.php(1133): NgDevGetController->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgDevGetController->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngdevget/getVOW...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngdevget/getVOWToken
+---
+2016/11/25 23:26:03 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/NgdevgetController.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/NgdevgetController.php(1133): NgDevGetController->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgDevGetController->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngdevget/getVOW...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngdevget/getVOWToken
+---
