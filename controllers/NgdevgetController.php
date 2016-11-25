@@ -1111,7 +1111,7 @@ class NgDevGetController extends XFrontBase
 		//error_reporting(-1); // reports all errors
 		$headers = getallheaders();
 
-		error_log(print_r($headers,true));
+		//error_log(print_r($headers,true));
 		$tokens = explode(" ", $headers['Authorization']? $headers['Authorization']: $headers['authorization']);
 		//error_log(print_r($tokens,true));
 		if ($tokens[0] == "Bearer" && !empty($tokens[1])) {
