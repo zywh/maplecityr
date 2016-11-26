@@ -1524,7 +1524,7 @@ class NgDevGetController extends XFrontBase
 			$mapHouseList['Kitchen'] = $val->num_kit;
 			$mapHouseList['GeocodeLat'] = $val->latitude;
 			$mapHouseList['GeocodeLng'] = $val->longitude;
-			$mapHouseList['Address'] = !empty($val->addr)?$val->addr : "不详";
+			$mapHouseList['Address'] = !empty($val->addr)?$val->addr : "地址不详";
 			$mapHouseList['SaleLease'] = $val->s_r; 
 			$mapHouseList['Price'] = $val->lp_dol;
 			
