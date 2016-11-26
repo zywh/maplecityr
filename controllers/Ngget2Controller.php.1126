@@ -17,17 +17,14 @@ class NgGet2Controller extends XFrontBase
 	//private $CREA_IMG_HOST = "http://ca.maplecity.com.cn/mlspic/crea/";//CDN CREA Large Image URL
 	//private $CREA_TN_HOST = "http://ca.maplecity.com.cn/mlspic/crea/creamtn/";//CDN CREA Thumbnail
 	//private $CREA_MID_HOST = "http://ca.maplecity.com.cn/mlspic/crea/creamid/"; //CDN CREA Medium Image 
+	
 	private $CREA_IMG_HOST = "http://creac.citym.ca/";//CDN CREA Large Image URL
 	private $CREA_TN_HOST = "http://creac.citym.ca/creamtn/";//CDN CREA Thumbnail
 	private $CREA_MID_HOST = "http://creac.citym.ca/creamid/"; //CDN CREA Medium Image 
 	
     private $MAPLEAPP_SPA_SECRET = "Wg1qczn2IKXHEfzOCtqFbFCwKhu-kkqiAKlBRx_7VotguYFnKOWZMJEuDVQMXVnG";
     private $MAPLEAPP_SPA_AUD = ['9fNpEj70wvf86dv5DeXPijTnkLVX5QZi'];
-    private $MAPLEAPP_SPA_VOW_SECRET = "Wg1qczn2";
-    private $MAPLEAPP_SPA_VOW_AUD = ['9fNpEj70'];
-    //private $MAPLEAPP_SPA_VOW_LIFETIME = 60*7*24*60*60; // 60 days expiration
-    private $MAPLEAPP_SPA_VOW_LIFETIME = 87200; // 60 days expiration
-    private $PROFILE_FAVLIST_MAX = 30;
+    private $PROFILE_FAVLIST_MAX = 20;
     private $PROFILE_CENTER_MAX = 10;
 	private $STR_MEMBER_ONLY = '登录用户可见';
 	private $IMG_ZANWU = 'static/images/zanwu.jpg';
@@ -124,39 +121,20 @@ class NgGet2Controller extends XFrontBase
 			$maxLat = floatval($latlon[2]);
 			$minLon = floatval($latlon[1]);
 			$maxLon = floatval($latlon[3]);
-			$centerLat = ($minLat + $maxLat)/2;
-			$centerLng = ($minLon + $maxLon)/2;
 			
 			
-		//for home page nearby and recommend search, also for similar house search	
 
 			if (!empty($postParms['type'])) {
-				 $criteria->limit = 15;
-				//error_log("type".$postParms['type']);
+				 $criteria->limit = 10;
+				error_log("type".$postParms['type']);
 				 //Recommendation
 				 if ($postParms['type']  == 'recommend') {
-					//error_log("type2 is selected");
+					error_log("type2 is selected");
 					$criteria->addCondition("propertyType_id = 1"); 
 					$criteria->addCondition("br >= 3");
 					$criteria->addCondition('lp_dol >= 800000');
 					$criteria->addCondition('lp_dol <= 1800000');
 				 }
-				 //$criteria->addCondition("get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)  < 20 "); 
-				// $criteria->order = "get_distance_in_miles_between_geo_locations(".$postParms['centerLat'].",".$postParms['centerLng'].", latitude, longitude)";
-				 if (!empty($postParms['housebaths'])) {
-			                $criteria->addCondition("t.bath_tot=".$postParms['housebaths']);
-
-            			}
-				 if (!empty($postParms['houseroom']) ) {
-                                		$houseroom = intval($postParms['houseroom']);
-                                $criteria->addCondition("t.br = :br");
-                                $criteria->params += array(':br' => $houseroom);
-                        	}
-
-
-
-				 $criteria->addCondition("get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)  < 20 "); 
-				 $criteria->order = "get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)";
 			 }
 			if (empty($postParms['type'])) {	
 				$count = House::model()->count($criteria);
@@ -266,7 +244,7 @@ class NgGet2Controller extends XFrontBase
 				$result['Data']['imgHost'] = $this->imgHost;
 				$criteria->select = 'id,ml_num,zip,s_r,county,municipality,lp_dol,num_kit,construction_year,br,addr,longitude,latitude,area,bath_tot,pix_updt,src,pic_num';
 				$criteria->with = array('mname','propertyType','city');
-				//$criteria->order = "t.latitude,t.longitude";
+				$criteria->order = "t.latitude,t.longitude";
 				$house = House::model()->findAll($criteria);
 				$result = $this->house2Array($house,$count,'house');
             
@@ -1035,14 +1013,13 @@ class NgGet2Controller extends XFrontBase
 		$postParms = (!empty($_POST['parms']))?  $_POST['parms'] : array();
 		$id = $postParms['id'];
 		$username = $postParms['username'];
-		$VOWtoken = $postParms['VOWtoken'];
 		error_log("id=".$id);
 		//$id='W3589143';
         
 		$criteria = new CDbCriteria();
 		//$criteria->addCondition('t.id="'.$id.'"');
 		$criteria->addCondition('t.ml_num="'.$id.'"');
-		$criteria->with = array('mname','propertyType','city');
+		$criteria->with = array('mname','propertyType');
 		
         //$house = House::model()->find('id=:id',array(':id'=>$id));
 		$house = House::model()->find($criteria);
@@ -1068,14 +1045,15 @@ class NgGet2Controller extends XFrontBase
 			} 
 		} 
 
-		if ($house->src == 'VOW' && ! $this->isValidVOWToken($VOWtoken)) {
+		if ($house->src == 'VOW') {
 			$VOW_member_only=true;
 			if ($username != 'NO') {
 				if ($this->isValidIdToken()) {
 					$VOW_member_only=false;
 				}
 			}	
-
+			
+			$VOW_member_only = false; //open so share line  can be viewed
 			if ($VOW_member_only) {
 				$house->addr = $this->STR_MEMBER_ONLY;
 				$unmasked_fields = array('ml_num','addr','pix_updt');
@@ -1093,7 +1071,6 @@ class NgGet2Controller extends XFrontBase
 			'house'           => $house->getAttributes(),
 			'house_mname'     => $house->mname->getAttributes(),
 			'house_propertyType' => $house->propertyType->getAttributes(),
-			'house_province' => $house->city->getAttributes(),
 			'exchangeRate'    => $exchangeRate,
 			'photos'          => $photos,
 			'cdn_photos'      => $cdn_photos,
@@ -1114,7 +1091,7 @@ class NgGet2Controller extends XFrontBase
 		//error_log(print_r($headers,true));
 		$tokens = explode(" ", $headers['Authorization']? $headers['Authorization']: $headers['authorization']);
 		//error_log(print_r($tokens,true));
-		if ($tokens[0] == "Bearer" && !empty($tokens[1])) {
+		if ($tokens[0] == "Bearer") {
 			//error_log($tokens[0]);
 			//error_log($tokens[1]);
 			//second is client ID and 4th argument is an array 
@@ -1129,29 +1106,6 @@ class NgGet2Controller extends XFrontBase
 		return $validToken;
 	}		
 	
-	public function actionGetVOWToken(){
-		if (!$this->isValidIdToken()) {  echo  json_encode("invalid_id_token_to_getVOWtoken") ; return; }
-
-		$VOWToken = \Auth0\SDK\Auth0JWT::encode($this->MAPLEAPP_SPA_VOW_AUD, $this->MAPLEAPP_SPA_VOW_SECRET, null, null, $this->MAPLEAPP_SPA_VOW_LIFETIME); 
-
-		echo json_encode($VOWToken);
-	}		
-
-	public function isValidVOWToken($VOWtoken){
-		//error_reporting(-1); // reports all errors
-		//error_log($VOWToken);
-		static $validVOWToken = false;
-		if ($validVOWToken) { return $validVOWToken; }
-
-		if (!empty($VOWtoken)) {
-		
-			$decoded_VOWtoken = \Auth0\SDK\Auth0JWT::decode($VOWtoken, $this->MAPLEAPP_SPA_VOW_AUD, $this->MAPLEAPP_SPA_VOW_SECRET, []); 
-			$validVOWToken = true;
-		}
-
-		return $validVOWToken;
-	}		
-
 	/*Get user data */
 	public function actionGetUserData(){
 		
@@ -1524,7 +1478,7 @@ class NgGet2Controller extends XFrontBase
 			$mapHouseList['Kitchen'] = $val->num_kit;
 			$mapHouseList['GeocodeLat'] = $val->latitude;
 			$mapHouseList['GeocodeLng'] = $val->longitude;
-			$mapHouseList['Address'] = !empty($val->addr)?$val->addr : "地址不详";
+			$mapHouseList['Address'] = !empty($val->addr)?$val->addr : "不详";
 			$mapHouseList['SaleLease'] = $val->s_r; 
 			$mapHouseList['Price'] = $val->lp_dol;
 			
@@ -1575,7 +1529,6 @@ class NgGet2Controller extends XFrontBase
 			
 			//Return CDN and non-CDN thumbnail and medium picture
 			if ( $fullList == 0){
-				//if (( $pic_num > 0)&&($src !="CREA" )) { //Treb picture meta data is updated after 2016/10/29
 				if ( $pic_num > 0) { //Treb picture meta data is updated after 2016/10/29
 				
 					$p1 = $this->TREB_MID_HOST."Photo".$ml_num."/Photo".$ml_num."-1.jpeg";
@@ -1623,7 +1576,6 @@ class NgGet2Controller extends XFrontBase
 			
 			//Return CDN and non-CDN full picture list
 			if ( $fullList == 1){
-				//if (( $pic_num > 0)&&($src !="CREA" )) { //Treb picture meta data is updated after 2016/10/29
 				if ( $pic_num > 0) { //Treb picture meta data is updated after 2016/10/29
 					for ($x = 1; $x <= $pic_num; $x++) {
 						
@@ -1739,7 +1691,7 @@ class NgGet2Controller extends XFrontBase
 				if ($minPrice >0) {
 					$criteria->addCondition('lp_dol >='.$minPrice);
 				}
-				if ( $maxPrice < 5000000){
+				if ( $maxPrice < 6000000){
 					$criteria->addCondition('lp_dol <='.$maxPrice);
 				}
 			}
