@@ -5620,3 +5620,163 @@ Stack trace:
 REQUEST_URI=/index.php?r=ngget2/getHouseDetail
 HTTP_REFERER=http://i.citym.ca/?from=singlemessage&isappinstalled=0
 ---
+2016/11/30 23:28:03 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:28:05 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:28:07 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:28:09 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:30:42 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:30:44 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:30:45 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:30:46 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:30:47 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
+2016/11/30 23:30:49 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Expired token' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1148): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1071): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/?from=singlemessage
+---
