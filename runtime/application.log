@@ -6985,3 +6985,887 @@ Stack trace:
 REQUEST_URI=/index.php?r=ngget2/getVOWToken
 HTTP_REFERER=http://localhost:8100/
 ---
+2016/12/03 01:16:14 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:15 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:15 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:16 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:16 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:17 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:17 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:17 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:17 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:18 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:18 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:18 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:19 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:19 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:19 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:20 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:20 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:20 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:20 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:21 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:21 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:22 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:22 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:22 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:23 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:24 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:50 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:50 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:51 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:51 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:51 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:52 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:52 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:52 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:53 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:53 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:53 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:53 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:54 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:54 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:54 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:55 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:55 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:55 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:56 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:56 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:56 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:57 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:57 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:57 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:57 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1133): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+HTTP_REFERER=http://localhost:8100/
+---
+2016/12/03 01:16:58 [error] [exception.Auth0\SDK\Exception\InvalidTokenException] exception 'Auth0\SDK\Exception\InvalidTokenException' with message 'Wrong number of segments' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:38
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1121): Auth0\SDK\Auth0JWT::decode('null', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1826): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1554): NgGet2Controller->maskVOW('VOW', NULL, 'static/images/m...')
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(271): NgGet2Controller->house2Array(Array, 0, 'house')
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+HTTP_REFERER=http://localhost:8100/
+---
