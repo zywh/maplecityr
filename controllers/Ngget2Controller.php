@@ -18,7 +18,7 @@ class NgGet2Controller extends XFrontBase
 	//private $CREA_TN_HOST = "http://ca.maplecity.com.cn/mlspic/crea/creamtn/";//CDN CREA Thumbnail
 	//private $CREA_MID_HOST = "http://ca.maplecity.com.cn/mlspic/crea/creamid/"; //CDN CREA Medium Image 
 	private $CREA_IMG_HOST = "http://creac.citym.ca/";//CDN CREA Large Image URL
-	private $CREA_TN_HOST = "http://creac.citym.ca/creamtn/";//CDN CREA Thumbnail
+	private $CREA_TN_HOST = "http://creac.citym.ca/creatn/";//CDN CREA Thumbnail
 	private $CREA_MID_HOST = "http://creac.citym.ca/creamid/"; //CDN CREA Medium Image 
 	
     private $MAPLEAPP_SPA_SECRET = "Wg1qczn2IKXHEfzOCtqFbFCwKhu-kkqiAKlBRx_7VotguYFnKOWZMJEuDVQMXVnG";
@@ -1555,7 +1555,7 @@ class NgGet2Controller extends XFrontBase
 			
 			$mapHouseList['CoverImgtn'] = $this->maskVOW($val->src,$pics['CoverImgtn'],$this->IMG_MEMBER);
 			$mapHouseList['CdnCoverImg'] = $pics['CdnCoverImg'];
-			$mapHouseList['CdnCoverImgtn'] = $pics['CdnCoverImg'];
+			$mapHouseList['CdnCoverImgtn'] = $pics['CdnCoverImgtn'];
 			$mapHouseList['MemberOnlyImg'] = $this->imgHost.$this->IMG_MEMBER;
 		
 			$result['Data']['HouseList'][] = $mapHouseList;
