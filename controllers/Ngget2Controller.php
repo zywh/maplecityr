@@ -11,9 +11,12 @@ class NgGet2Controller extends XFrontBase
     //private $imgHost ="http://m.maplecity.com.cn/";
 	private $imgHost ="http://ca.maplecity.com.cn/";
 	
-	private $TREB_IMG_HOST = "http://1546690846.rsc.cdn77.org/treb/";//CDN Treb Large Image URL
-	private $TREB_TN_HOST = "http://1546690846.rsc.cdn77.org/trebtn/"; //CDN Treb Thumbnail
-	private $TREB_MID_HOST = "http://1546690846.rsc.cdn77.org/trebmid/";//CDN Treb Medium Image URL
+	private $TREB_IMG_HOST = "http://creac.citym.ca/treb/";//CDN Treb Large Image URL
+	private $TREB_TN_HOST = "http://creac.citym.ca/trebtn/"; //CDN Treb Thumbnail
+	private $TREB_MID_HOST = "http://creac.citym.ca/trebmid/";//CDN Treb Medium Image URL
+	//private $TREB_IMG_HOST = "http://1546690846.rsc.cdn77.org/treb/";//CDN Treb Large Image URL
+	//private $TREB_TN_HOST = "http://1546690846.rsc.cdn77.org/trebtn/"; //CDN Treb Thumbnail
+	//private $TREB_MID_HOST = "http://1546690846.rsc.cdn77.org/trebmid/";//CDN Treb Medium Image URL
 	//private $CREA_IMG_HOST = "http://ca.maplecity.com.cn/mlspic/crea/";//CDN CREA Large Image URL
 	//private $CREA_TN_HOST = "http://ca.maplecity.com.cn/mlspic/crea/creamtn/";//CDN CREA Thumbnail
 	//private $CREA_MID_HOST = "http://ca.maplecity.com.cn/mlspic/crea/creamid/"; //CDN CREA Medium Image 
