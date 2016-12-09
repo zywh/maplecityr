@@ -175,7 +175,7 @@ class NgGet2Controller extends XFrontBase
 				//$groupcriteria->select = 't.municipality as municipality,count(id) as id,"100" as lp_dol';
 				$groupcriteria->with = array('mname');
 				$groupcriteria->group = "t.municipality";
-				$groupcriteria->order = "id DESC";
+				//$groupcriteria->order = "id DESC";
 				$groupcriteria->limit = $maxcitymarkers;
 				
 				$groupresult = House::model()->findAll($groupcriteria);
