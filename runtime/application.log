@@ -2087,3 +2087,723 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/
 ---
+2017/01/18 01:43:53 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:43:54 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:43:55 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:43:56 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:43:57 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:43:58 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:43:59 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:00 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:01 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:22 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:23 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:24 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:25 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:25 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:26 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:27 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:28 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:28 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:29 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:30 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:44:30 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:48 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:49 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:50 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:50 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:51 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:52 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:53 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:53 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:54 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:55 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:55 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:49:56 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:35 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:36 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:36 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:37 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:38 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:38 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:39 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:40 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:40 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:41 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:42 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
+2017/01/18 01:51:42 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Signature verification failed' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1151): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1074): NgGet2Controller->isValidVOWToken('eyJ0eXAiOiJKV1Q...')
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+HTTP_REFERER=http://i.citym.ca/
+---
