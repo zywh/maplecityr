@@ -159,7 +159,12 @@ class NgGet2Controller extends XFrontBase
 
 
 				 $criteria->addCondition("get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)  < 20 "); 
+				 //$criteria->addCondition("(ACOS(SIN(latitude * PI() / 180) * SIN(".$centerLat."* PI() / 180) + COS(latitude * PI() / 180) * COS(".$centerLng."* PI() / 180) * COS((longitude - ".$centerLng.") * PI() / 180)) * 180 / PI()) * 60 * 1.1515 < 20");
+
+
+
 				 $criteria->order = "get_distance_in_miles_between_geo_locations(".$centerLat.",".$centerLng.", latitude, longitude)";
+				 //$criteria->order = "(ACOS(SIN(latitude * PI() / 180) * SIN(".$centerLat."* PI() / 180) + COS(latitude * PI() / 180) * COS(".$centerLng."* PI() / 180) * COS((longitude - ".$centerLng.") * PI() / 180)) * 180 / PI()) * 60 * 1.1515 < 20";
 			 }
 			if (empty($postParms['type'])) {	
 				$count = House::model()->count($criteria);
@@ -282,7 +287,35 @@ class NgGet2Controller extends XFrontBase
 		echo json_encode($result);
     }
 	
-	
+	//REST to return today's list 	
+	public function actionGetTodayList(){
+		$_POST = (array) json_decode(file_get_contents('php://input'), true);
+		$postParms = (!empty($_POST['parms']))?  $_POST['parms'] : array();
+		$username = $postParms['username'];
+		$criteria = new CDbCriteria();
+		$criteria->select = 'id,ml_num,zip,s_r,county,municipality,lp_dol,num_kit,construction_year,br,addr,longitude,latitude,area,bath_tot,pix_updt,src,pic_num';
+		$criteria->with = array('mname','propertyType','city');
+		$criteria->addCondition('dom=0 and s_r="Sale"');
+		$criteria->order = 'lp_dol DESC';
+
+		if ($username == 'NO' ) {
+				
+			$criteria->addCondition('t.municipality="Toronto"');
+
+		} else {
+
+			$center = json_decode($this->getoption($username,'myCenter')['Data']);
+			foreach ( $center as $c){$citylist[] = $c->name;	}
+			$criteria->addInCondition('t.municipality', $citylist);
+		}
+		
+		$house = House::model()->findAll($criteria);
+		$result = $this->house2Array($house,0,'house');
+		
+		echo json_encode($result);
+		
+		
+	}
 	//REST to return either list of GRID and HOUSEes for map search page
     public function actionGetHouseList() {
 		$_POST = (array) json_decode(file_get_contents('php://input'), true);
@@ -1191,13 +1224,15 @@ class NgGet2Controller extends XFrontBase
 		$username = $postParms['username'];
 		//$username = 'zhengyin@yahoo.com';
 		$db = Yii::app()->db;
-		$sql ='select houseFav,routeFav,recentView,JSON_LENGTH(myCenter) as myCenter, JSON_LENGTH(recentCenter) as recentCenter from h_user_data where username="'.$username.'"';
+		$sql ='select viewFlag,mailFlag,houseFav,routeFav,recentView,JSON_LENGTH(myCenter) as myCenter, JSON_LENGTH(recentCenter) as recentCenter from h_user_data where username="'.$username.'"';
 		$resultsql = $db->createCommand($sql)->queryRow();
 		$data['houseFav'] = $this->countfav($resultsql['houseFav']);
 		$data['routeFav'] = $this->countfav($resultsql['routeFav']);
 		$data['recentView'] = $this->countfav($resultsql['recentView']);
 		$data['recentCenter'] = $resultsql['recentCenter'];
 		$data['myCenter'] = $resultsql['myCenter'];
+		$data['mailFlag'] = $resultsql['mailFlag'];
+		$data['viewFlag'] = $resultsql['viewFlag'];
 		echo json_encode($data);
 
 		
