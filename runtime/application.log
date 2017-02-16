@@ -12138,3 +12138,67 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/index.php?r=ngget2/getCityList
 ---
+2017/02/16 15:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/02/16 15:29:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/02/16 15:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=//
+---
+2017/02/16 15:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=//?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000
+---
+2017/02/16 15:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php?m=admin&c=index&a=login&pc_hash=
+---
+2017/02/16 15:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php?controller=javascript&action=adloader
+---
+2017/02/16 15:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php/module/action/param1/${@print(md5(1))}
+---
+2017/02/16 15:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php/module/action/param1/test}
+---
