@@ -3193,3 +3193,102 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/index.php?r=ngget2/getCityList
 ---
+2017/03/12 01:04:47 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:48 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:49 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:49 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:50 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:51 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:52 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:52 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:53 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:54 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
+2017/03/12 01:04:55 [error] [php] Invalid argument supplied for foreach() (/var/www/rhtml/protected/controllers/Ngget2Controller.php:308)
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(3555): NgGet2Controller->runAction()
+#1 /var/www/rhtml/framework/yiilite.php(3545): NgGet2Controller->runActionWithFilters()
+#2 /var/www/rhtml/framework/yiilite.php(1746): NgGet2Controller->run()
+#3 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController()
+#4 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#5 /var/www/rhtml/index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php?r=ngget2/getTodayList
