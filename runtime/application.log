@@ -828,3 +828,969 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/index.php
 ---
+2017/04/04 08:55:22 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:22 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:22 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:23 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:23 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:23 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:23 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:24 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:24 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:24 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:25 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:25 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:25 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:25 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:26 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:26 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:26 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:26 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:26 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:27 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:27 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:27 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:27 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:28 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:28 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:28 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:28 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:28 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:29 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:29 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo l%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:29 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:29 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:30 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:30 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun du%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 08:55:30 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 'duo lun duo%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 08:55:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:31 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:32 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:33 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:34 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:34 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:35 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:36 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:37 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:37 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:38 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
+2017/04/04 09:01:39 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'. The SQL statement executed was: 
+				SELECT m.lat lat,m.lng lng,m.municipality citye,m.municipality_cname cityc,m.province provincee,c.name provincec 
+				FROM h_mname m, h_city c 
+				WHERE  m.province = c.englishname 
+				AND  municipality like 's ca%' 
+				AND  m.count > 1 order by count desc limit 8.
+2017/04/04 09:01:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(422): CDbCommand->query()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetCityList()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getCityList')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getCityL...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getCityList
+---
