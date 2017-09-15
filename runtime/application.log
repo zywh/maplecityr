@@ -3524,3 +3524,12 @@ Stack trace:
 REQUEST_URI=/
 HTTP_REFERER=http://campingrando.com
 ---
+2017/09/16 05:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://c382999179.scd.wezhan.cn
+---
