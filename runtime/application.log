@@ -11770,3 +11770,1605 @@ Stack trace:
 #12 {main}
 REQUEST_URI=/index.php?r=ngget2/getMapHouse
 ---
+2017/10/11 05:54:19 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:54:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:26 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:27 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:28 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:28 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:29 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:29 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:30 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:31 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:31 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:31 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:32 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:32 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:33 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:33 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:33 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:34 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:34 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:35 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:35 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:35 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:35 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:36 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:36 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:36 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:37 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:37 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:37 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:37 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:38 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:38 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:38 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:38 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:38 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:39 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:39 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:39 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:39 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:39 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:40 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:40 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:40 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:43 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:43 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:43 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:44 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:44 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:44 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:44 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:45 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:45 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:45 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:45 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:46 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:46 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:46 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:46 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:47 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:47 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:47 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:47 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:47 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:48 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 05:57:48 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 05:57:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:35 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:36 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:37 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:38 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:39 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:39 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:40 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:40 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:41 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:04:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:04:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:05:17 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:05:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2017/10/11 06:05:18 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2017/10/11 06:05:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/rhtml/framework/yiilite.php:8433
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(8399): CDbConnection->open()
+#1 /var/www/rhtml/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /var/www/rhtml/framework/yiilite.php(1060): CDbConnection->init()
+#3 /var/www/rhtml/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /var/www/rhtml/framework/yiilite.php(7450): CApplication->getDb()
+#5 /var/www/rhtml/framework/yiilite.php(7467): CActiveRecord->getDbConnection()
+#6 /var/www/rhtml/framework/yiilite.php(7880): CActiveRecord->getCommandBuilder()
+#7 /var/www/rhtml/protected/components/XFrontBase.php(35): CActiveRecord->findAll()
+#8 /var/www/rhtml/framework/yiilite.php(1745): XFrontBase->init()
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
