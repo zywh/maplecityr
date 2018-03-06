@@ -7786,3 +7786,43 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/
 ---
+2018/03/06 09:46:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2018/03/06 09:48:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2018/03/06 09:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2018/03/06 09:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2018/03/06 09:49:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site"。' in /var/www/rhtml/framework/yiilite.php:1750
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('')
+#1 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /var/www/rhtml/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
