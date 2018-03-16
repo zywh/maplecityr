@@ -6902,3 +6902,444 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/
 ---
+2018/03/17 04:06:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:06:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:06:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:06:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.79728355477026, :minLat=43.549459460163504, :maxLon=-79.243475149109713, :minLon=-79.463201711609713.
+2018/03/17 04:07:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/03/17 04:07:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by. The SQL statement executed was: SELECT t.municipality as municipality, count(id) as id, sum(lp_dol)/10000 as lp_dol, `t`.`id` AS `t0_c0`, `mname`.`municipality` AS `t1_c0`, `mname`.`municipality_cname` AS `t1_c1`, `mname`.`lat` AS `t1_c2`, `mname`.`lng` AS `t1_c3`, `mname`.`province` AS `t1_c4`, `mname`.`count` AS `t1_c5`, `mname`.`tax_rate` AS `t1_c6` FROM `h_house` `t`  LEFT OUTER JOIN `h_mname` `mname` ON (`t`.`municipality`=`mname`.`municipality`)  WHERE (((((s_r = "Sale") AND (t.latitude <= :maxLat)) AND (t.latitude >= :minLat)) AND (t.longitude <= :maxLon)) AND (t.longitude >= :minLon)) GROUP BY t.municipality LIMIT 20. Bound with :maxLat=43.92411482521107, :minLat=43.676816181263334, :maxLon=-79.110020733870783, :minLon=-79.329747296370783.
+2018/03/17 04:07:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hdm106787551_db.t.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by' in /var/www/rhtml/framework/yiilite.php:9341
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(9264): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/rhtml/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /var/www/rhtml/framework/db/ar/CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/rhtml/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(7817): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/rhtml/framework/yiilite.php(7881): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/rhtml/protected/controllers/Ngget2Controller.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#8 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#9 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#10 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#12 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#13 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#14 /var/www/rhtml/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
