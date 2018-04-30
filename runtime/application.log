@@ -769,3 +769,33 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/index.php?r=ngget2/getHouseDetail
 ---
+2018/04/30 11:05:53 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-04-30T11:08:43+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1101): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+---
+2018/04/30 11:06:02 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-04-30T11:08:43+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1101): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetHouseDetail()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getHouseDetail')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getHouse...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getHouseDetail
+---
