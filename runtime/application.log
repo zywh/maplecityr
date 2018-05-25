@@ -1990,3 +1990,483 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/
 ---
+2018/05/25 17:28:07 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:32:28+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:08 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:32:28+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:09 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:32:28+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:10 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:32:28+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:12 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:32:28+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:13 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:32:28+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:14 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:32:28+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:42 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:43 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:44 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:45 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:46 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:47 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:28:48 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1169): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetVOWToken()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getVOWToken')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getVOWTo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getVOWToken
+---
+2018/05/25 17:29:13 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:14 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:14 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:14 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:15 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:16 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:16 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:16 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:17 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:17 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:18 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:18 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:18 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:19 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:19 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:20 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
+2018/05/25 17:29:20 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1389): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionSaveOptions()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('saveOptions')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/saveOpti...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/saveOptions
+---
+2018/05/25 17:29:21 [error] [exception.Auth0\SDK\Exception\CoreException] exception 'Auth0\SDK\Exception\CoreException' with message 'Cannot handle token prior to 2018-05-25T17:33:02+0800' in /var/www/rhtml/protected/vendor/auth0/auth0-php/src/Auth0JWT.php:73
+Stack trace:
+#0 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1157): Auth0\SDK\Auth0JWT::decode('eyJ0eXAiOiJKV1Q...', Array, 'Wg1qczn2IKXHEfz...', Array)
+#1 /var/www/rhtml/protected/controllers/Ngget2Controller.php(1220): NgGet2Controller->isValidIdToken()
+#2 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetFavCount()
+#3 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getFavCount')
+#7 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getFavCo...')
+#8 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#9 /var/www/rhtml/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ngget2/getFavCount
+---
