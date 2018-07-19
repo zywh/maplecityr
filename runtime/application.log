@@ -5971,3 +5971,1587 @@ Stack trace:
 #12 {main}
 REQUEST_URI=/index.php?r=ngget2/getMapHouse
 ---
+2018/07/19 14:29:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:12 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:13 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:14 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:15 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:15 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:16 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:17 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:18 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:18 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:18 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:18 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:19 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:19 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:19 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:19 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:19 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:20 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:20 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:20 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:20 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:21 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:21 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:21 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:21 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:23 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:23 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:23 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:23 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:24 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:24 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:24 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:24 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:25 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:25 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:25 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:25 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:25 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:25 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:26 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:26 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:26 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:26 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:27 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:27 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:28 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:28 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:29 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:30 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:29:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:29:30 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:34 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:34 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:34 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:34 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:35 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:35 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:35 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:35 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:35 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:36 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:36 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:36 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:37 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:37 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:37 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:38 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:38 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:38 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:38 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:38 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:38 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:39 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:39 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:39 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:40 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:40 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:40 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:41 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:41 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:41 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:41 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:41 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
+2018/07/19 14:30:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hdm106787551_db.h_house' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `h_house`.
+2018/07/19 14:30:41 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "House" 对应的 table "{{house}}".' in /var/www/rhtml/framework/yiilite.php:8289
+Stack trace:
+#0 /var/www/rhtml/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(House))
+#1 /var/www/rhtml/framework/yiilite.php(7463): CActiveRecord->getMetaData()
+#2 /var/www/rhtml/framework/yiilite.php(7944): CActiveRecord->getTableSchema()
+#3 /var/www/rhtml/protected/controllers/Ngget2Controller.php(170): CActiveRecord->count(Object(CDbCriteria))
+#4 /var/www/rhtml/framework/yiilite.php(4058): NgGet2Controller->actionGetMapHouse()
+#5 /var/www/rhtml/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#6 /var/www/rhtml/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#7 /var/www/rhtml/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/rhtml/framework/yiilite.php(1746): CController->run('getMapHouse')
+#9 /var/www/rhtml/framework/yiilite.php(1666): CWebApplication->runController('ngget2/getMapHo...')
+#10 /var/www/rhtml/framework/yiilite.php(1191): CWebApplication->processRequest()
+#11 /var/www/rhtml/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=ngget2/getMapHouse
+---
